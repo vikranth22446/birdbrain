@@ -222,7 +222,7 @@ def run_snr_experiment(random_seed=0, num_epochs=40):
         std_n = (sp / snr) ** 0.5  # Noise std. deviation
         snr_metrics[snr] = run_experiment(
             random_seed=random_seed,
-            hidden_layer_size=2,
+            hidden_layer_size=0,
             num_epochs=num_epochs,
             noise_std=std_n,
             snr_used=snr,
@@ -232,8 +232,7 @@ def run_snr_experiment(random_seed=0, num_epochs=40):
         json.dump(snr_metrics, f, indent=2)
 
 if __name__ == "__main__":
-    # run_hidden_layer_size_experiment(num_epochs=100)
-    # run_snr_experiment(num_epochs=100)
-    # run_single_layer_experiment(num_epochs=100)
-    run_snr_experiment()
+    run_hidden_layer_size_experiment(num_epochs=100)
+    run_snr_experiment(num_epochs=100)
+    run_single_layer_experiment(num_epochs=100)
   

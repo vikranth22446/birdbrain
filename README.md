@@ -1,11 +1,10 @@
 # Birdbrain: Analyzing Waterbirds and Mobilenet
+We simplify running metrics such as model information capacity, signal to noise ration, and others via last layer retraining. 
 
-We used brainome to analyze the capacity progression. 
 Generate the csvs for brainome via:
 ```
 python3 compute_memorization_csv.py
 ```
-Note: The dataset will download automatically.
 
 To run the experiment with those csvs:
 

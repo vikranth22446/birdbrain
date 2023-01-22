@@ -16,6 +16,7 @@ To run the experiment with those csvs:
 ```
 python3 run_compressed_csv_experiments.py
 ```
+Capacity progression will test for different model sizes to see that point at which size the model retrains information.
 
 The experimental results are stored in the experimental results folder. The graphs can be generated via running the cells of `plot_notebook.ipynb`
 

@@ -1,5 +1,5 @@
 # Birdbrain: Analyzing Waterbirds and Mobilenet
-We simplify running metrics such as model information capacity, signal to noise ration, and others via last layer retraining. 
+We simplify running metrics such as model information capacity, signal to noise ratio, and others via last layer retraining. 
 
 Generate the csvs for brainome via:
 ```

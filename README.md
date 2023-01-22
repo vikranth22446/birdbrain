@@ -8,6 +8,7 @@ python3 compute_memorization_csv.py
 Note: The dataset will download automatically.
 
 To run the experiment with those csvs:
+
     - different SNR values
     - training loss curves
     - waterbird subgroup accuracy
